@@ -84,7 +84,36 @@ weather-based-sales-prediction/
 
 ---
 
+## How to Run
+
+### 1. Create virtual environment
+
+python3 -m venv venv
+source venv/bin/activate
+
+### 2. Install dependencies
+
+pip install -r requirements.txt
+
+
+### 3. Train the model
+
+python src/train.py
+
+
+---
+
+## Future Improvements
+
+- Add holiday calendar features
+- Extend to D+7 forecasting
+- Hyperparameter tuning
+- Deploy as a simple API
+- Add dashboard visualization
+
+---
+
 ## Author
 
-Esin Yufkaci
+Esin Yufkaci  
 
